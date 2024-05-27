@@ -24,28 +24,28 @@ Usage
 
 ### List of bindings
 
-* <kbd>CTRL-G</kbd><kbd>CTRL-F</kbd> for **F**iles
-* <kbd>CTRL-G</kbd><kbd>CTRL-B</kbd> for **B**ranches
-* <kbd>CTRL-G</kbd><kbd>CTRL-T</kbd> for **T**ags
-* <kbd>CTRL-G</kbd><kbd>CTRL-R</kbd> for **R**emotes
-* <kbd>CTRL-G</kbd><kbd>CTRL-H</kbd> for commit **H**ashes
-* <kbd>CTRL-G</kbd><kbd>CTRL-S</kbd> for **S**tashes
-* <kbd>CTRL-G</kbd><kbd>CTRL-L</kbd> for ref**l**ogs
-* <kbd>CTRL-G</kbd><kbd>CTRL-W</kbd> for **W**orktrees
-* <kbd>CTRL-G</kbd><kbd>CTRL-E</kbd> for **E**ach ref (`git for-each-ref`)
+* <kbd>ALT-G</kbd><kbd>ALT-F</kbd> for **F**iles
+* <kbd>ALT-G</kbd><kbd>ALT-B</kbd> for **B**ranches
+* <kbd>ALT-G</kbd><kbd>ALT-T</kbd> for **T**ags
+* <kbd>ALT-G</kbd><kbd>ALT-R</kbd> for **R**emotes
+* <kbd>ALT-G</kbd><kbd>ALT-H</kbd> for commit **H**ashes
+* <kbd>ALT-G</kbd><kbd>ALT-S</kbd> for **S**tashes
+* <kbd>ALT-G</kbd><kbd>ALT-L</kbd> for ref**l**ogs
+* <kbd>ALT-G</kbd><kbd>ALT-W</kbd> for **W**orktrees
+* <kbd>ALT-G</kbd><kbd>ALT-E</kbd> for **E**ach ref (`git for-each-ref`)
 
 > [!WARNING]
 > You may have issues with these bindings in the following cases:
 >
-> * <kbd>CTRL-G</kbd><kbd>CTRL-B</kbd> will not work if
->   <kbd>CTRL-B</kbd> is used as the tmux prefix
-> * <kbd>CTRL-G</kbd><kbd>CTRL-S</kbd> will not work if flow control is enabled,
->   <kbd>CTRL-S</kbd> will freeze the terminal instead
+> * <kbd>ALT-G</kbd><kbd>ALT-B</kbd> will not work if
+>   <kbd>ALT-B</kbd> is used as the tmux prefix
+> * <kbd>ALT-G</kbd><kbd>ALT-S</kbd> will not work if flow control is enabled,
+>   <kbd>ALT-S</kbd> will freeze the terminal instead
 >     * (`stty -ixon` will disable it)
 >
 > To workaround the problems, you can use
-> <kbd>CTRL-G</kbd><kbd>*{key}*</kbd> instead of
-> <kbd>CTRL-G</kbd><kbd>CTRL-*{KEY}*</kbd>.
+> <kbd>ALT-G</kbd><kbd>*{key}*</kbd> instead of
+> <kbd>ALT-G</kbd><kbd>ALT-*{KEY}*</kbd>.
 >
 
 > [!WARNING]
@@ -55,8 +55,8 @@ Usage
 ### Inside fzf
 
 * <kbd>TAB</kbd> or <kbd>SHIFT-TAB</kbd> to select multiple objects
-* <kbd>CTRL-/</kbd> to change preview window layout
-* <kbd>CTRL-O</kbd> to open the object in the web browser (in GitHub URL scheme)
+* <kbd>ALT-/</kbd> to change preview window layout
+* <kbd>ALT-O</kbd> to open the object in the web browser (in GitHub URL scheme)
 
 Customization
 -------------
